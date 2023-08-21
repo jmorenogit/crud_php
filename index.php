@@ -15,17 +15,22 @@
     
       <div class="row">
         <div class="col">
-        <h1>CRUD PHP MySQLi</h1>
-        <h4>Recetas de Cocina</h4>
+          <h1>CRUD PHP MySQLi</h1>
+        </div>
+        <div class="col">
+          <a href="https://github.com/jmorenogit/crud_php.git" class="btn btn-primary">Ir a GitHub</a>
         </div>
       </div>
 
-      <br>
+      <br><br>
       
       <div class="row">
-        <div class="col-12">
+        <div class="col">
+          <h4>Recetas de Cocina</h4>
+        </div>
+        <div class="col">
           <form action="nueva_receta.php" method="POST">
-            <input type="submit" class="btn btn-primary" value="Nueva receta">
+            <input type="submit" class="btn btn-success" value="Nueva receta">
           </form>
         </div>
       </div>
