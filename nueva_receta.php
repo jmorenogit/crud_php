@@ -9,29 +9,30 @@
   <body>
     
 
-    <div class="container text-left">
+    <div class="container text-center">
 
       <br>
     
       <div class="row">
-        <div class="col">
+        <div class="col-12">
           <h1>Nueva receta</h1>
           <form action="registrar.php" method="POST">
             <div class="form_group">
               <label for="nombre">Nombre</label><br>
-              <input placeholder="Nombre" class="form_control" type="text" name="nombre" id="nombre" required>
+              <input placeholder="Nombre" class="form-control" type="text" name="nombre" id="nombre" required>
             </div>
             <div class="form_group">
               <label for="ingredientes">Ingredientes</label><br>
-              <textarea placeholder="Ingredientes" class="form_control" type="text" name="ingredientes" id="ingredientes" cols="30" rows="2" required></textarea>
+              <textarea placeholder="Ingredientes" class="form-control" name="ingredientes" id="ingredientes" rows="2" required></textarea>
             </div>
             <div class="form_group">
               <label for="elaboracion">Elaboración</label><br>
-              <textarea placeholder="Elaboración" class="form_control" type="text" name="elaboracion" id="elaboracion" cols="30" rows="10" required></textarea>
+              <textarea placeholder="Elaboración" class="form-control" name="elaboracion" id="elaboracion" rows="10" required></textarea>
             </div>
             <div class="form_group">
               <input type="submit" class="btn btn-primary">
               <input class="btn btn-secondary" type="reset" value="Reset">
+              <a class="btn btn-warning" href="index.php">Volver</a>
             </div>
           </form>
         </div>

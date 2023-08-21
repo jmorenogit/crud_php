@@ -16,6 +16,7 @@
       <div class="row">
         <div class="col">
         <h1>CRUD PHP MySQLi</h1>
+        <h4>Recetas de Cocina</h4>
         </div>
       </div>
 
@@ -54,8 +55,8 @@
                     <td><?php echo $receta["nombre"] ?></td>
                     <td><?php echo $receta["ingredientes"] ?></td>
                     <td><?php echo $receta["elaboracion"] ?></td>
-                    <td><a href="editar.php?id=<?php echo $receta['id'] ?>">Editar</a></td>
-                    <td><a href="eliminar.php?id=<?php echo $receta['id'] ?>">Eliminar</a></td>
+                    <td><a class="btn btn-secondary" href="editar.php?id=<?php echo $receta['id'] ?>">Editar</a></td>
+                    <td><a class="btn btn-danger" href="eliminar.php?id=<?php echo $receta['id'] ?>">Eliminar</a></td>
                   </tr>
 
             <?php }
